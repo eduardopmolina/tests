@@ -7,5 +7,5 @@ def test_str04():
 
 @pytest.mark.xfail(reason="known issue2")
 def test_str05():
-    letters2 = 'abcdefghijklmnopqrstuvwxyz'
-    assert letters2[100]
+    letters2 = ('abcdef')
+    assert letters2[5]
