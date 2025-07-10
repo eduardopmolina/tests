@@ -1,5 +1,5 @@
 def test_a1():
-    assert 5 + 5 == 11
+    assert 5 + 5 == 1
     assert 5 - 5 == 0
     assert 6 - 6 == 0
 
